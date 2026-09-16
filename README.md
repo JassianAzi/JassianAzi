@@ -14,7 +14,7 @@
 ### About Me
 
 - BS Information Technology, *Magna Cum Laude* — Nueva Ecija University of Science and Technology (June 2026)
-- Founder & sole developer of **[Clerune](https://www.clerune.com)** — an AI-powered administrative SaaS
+- Developer of **[Clerune](https://www.clerune.com)** — an AI-powered administrative SaaS
 - Comfortable across the stack: React, Angular, Node.js/Express, PostgreSQL/MySQL, and RESTful API design
 - Currently deep in AI-assisted development — Anthropic API integration, prompt engineering, and structured outputs
 - Based in Cabanatuan City, Nueva Ecija, Philippines
@@ -25,7 +25,7 @@
 ### Featured Project
 
 **[Clerune](https://www.clerune.com) — AI-Powered Administrative SaaS**
-*Founder · Sole Developer · Full-Stack*
+*Developer · Full-Stack*
 
 A multi-tenant SaaS platform that turns meeting transcripts into summaries, minutes, action items, tasks, documents, and searchable organizational knowledge, with contextual AI Q&A on top.
 
@@ -40,7 +40,7 @@ A multi-tenant SaaS platform that turns meeting transcripts into summaries, minu
 
 ### Other Projects
 
-**Web-Based Financial Auditing Portal** — *Lead Developer* · `PHP` `MySQL` `JavaScript`
+**Web-Based Financial Auditing Portal** — *Full-Stack Developer* · `PHP` `MySQL` `JavaScript`
 A platform for managing, validating, and auditing financial and liquidation reports, with relational database design for tracking income, expenses, and transactions, plus dynamic validation that cut down manual reporting errors.
 
 **Lost and Found Management System** — *Front-End Developer* · `PHP` `MySQL` `JavaScript`
