@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Carl Jassian Balaria</h1>
 
 <p align="center">
-  Full-stack developer & founder building production SaaS from the Philippines
+  Full-stack developer building production SaaS from the Philippines
 </p>
 
 <p align="center">
