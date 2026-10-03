@@ -1,12 +1,12 @@
 # Carl Jassian Balaria
 
-**AI Application Engineer · Full-Stack TypeScript Developer**
+**AI Application Engineer · Full-Stack Developer**
 
 I build software that puts large language models to work inside real products: schema-validated model outputs, evaluation harnesses that catch regressions before release, and the TypeScript and PostgreSQL backends around them. Recent BS Information Technology graduate (Magna Cum Laude, 2026), based in the Philippines.
 
 [clerune.com](https://www.clerune.com) · [LinkedIn](https://www.linkedin.com/in/jassian-balaria/) · carlbalaria@gmail.com
 
-**Stack:** TypeScript · React · Next.js · Node.js (Express, Fastify) · PostgreSQL · Drizzle ORM · Redis / BullMQ · Anthropic Claude API · Deepgram · Docker · GitHub Actions · Vercel · Railway
+**Stack:** TypeScript · JavaScript · React · Next.js · Node.js (Express, Fastify) · PostgreSQL · Drizzle ORM · Redis / BullMQ · Anthropic Claude API · Deepgram · Docker · GitHub Actions · Vercel · Railway
 
 ## Featured projects
 
