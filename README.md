@@ -1,95 +1,37 @@
-<h1 align="center">Hi, I'm Carl Jassian Balaria</h1>
+# Carl Jassian Balaria
 
-<p align="center">
-  Full-stack developer building production SaaS from the Philippines
-</p>
+**AI Application Engineer · Full-Stack TypeScript Developer**
 
-<p align="center">
-  <a href="mailto:carlbalaria@gmail.com"><img src="https://img.shields.io/badge/Email-carlbalaria%40gmail.com-2E6355?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://www.clerune.com"><img src="https://img.shields.io/badge/Website-clerune.com-2E6355?style=flat-square&logo=googlechrome&logoColor=white" alt="Website"></a>
-</p>
+I build software that puts large language models to work inside real products: schema-validated model outputs, evaluation harnesses that catch regressions before release, and the TypeScript and PostgreSQL backends around them. Recent BS Information Technology graduate (Magna Cum Laude, 2026), based in the Philippines.
 
----
+[clerune.com](https://www.clerune.com) · [LinkedIn](https://www.linkedin.com/in/jassian-balaria/) · carlbalaria@gmail.com
 
-### About Me
+**Stack:** TypeScript · React · Next.js · Node.js (Express, Fastify) · PostgreSQL · Drizzle ORM · Redis / BullMQ · Anthropic Claude API · Deepgram · Docker · GitHub Actions · Vercel · Railway
 
-- BS Information Technology, *Magna Cum Laude* — Nueva Ecija University of Science and Technology (June 2026)
-- Developer of **[Clerune](https://www.clerune.com)** — an AI-powered administrative SaaS
-- Comfortable across the stack: React, Angular, Node.js/Express, PostgreSQL/MySQL, and RESTful API design
-- Currently deep in AI-assisted development — Anthropic API integration, prompt engineering, and structured outputs
-- Based in Cabanatuan City, Nueva Ecija, Philippines
-- Interested in software development, IT support, and enterprise technology consulting
+## Featured projects
 
----
+### [Clerune](https://www.clerune.com) — production AI meeting and work assistant
 
-### Featured Project
+Turns meeting transcripts into summaries, decisions and action items with schema-validated Claude outputs, plus Deepgram transcription, usage metering, controlled AI error handling and privacy-safe AI telemetry. Prompt changes are evaluated against a reproducible 15-case dataset (noisy transcripts, prompt injection, date grounding) with predefined regression guardrails; on that fixed set the current version scored 10/10 on meeting-date grounding, 57/57 on deadlines, with 0/25 relative-date guardrail violations.
 
-**[Clerune](https://www.clerune.com) — AI-Powered Administrative SaaS**
-*Developer · Full-Stack*
+React · Express · PostgreSQL · Anthropic · Deepgram · Vercel / Railway — live product; source is private.
 
-A multi-tenant SaaS platform that turns meeting transcripts into summaries, minutes, action items, tasks, documents, and searchable organizational knowledge, with contextual AI Q&A on top.
+### [LifeInbox](https://github.com/JassianAzi/lifeinbox) — document intelligence app *(In Development)*
 
-- Built secure authentication from scratch: opaque sessions, Google Sign-In, email verification, TOTP-based 2FA, account recovery, and role-based organization access control
-- Integrated the Anthropic API with structured outputs, quota enforcement, usage metering, and concurrency-safe request handling
-- Implemented Paddle subscription billing — webhook-based entitlement management, customer portal access, and tiered Free/Pro limits
-- Deployed and maintains production infrastructure on Vercel and Railway with PostgreSQL and Resend
+Upload, extract and review pipeline that turns bills, receipts and everyday documents into structured information and tasks. OCR and analysis sit behind provider adapters (Google Document AI, Anthropic), with explicit consent before any document leaves the app, prompt-injection-safe review states, retry-safe extraction, reminders, and account export and deletion.
 
-`React` `TypeScript` `Node.js` `Express` `PostgreSQL` `Anthropic API` `Paddle`
+Next.js 16 · React 19 · PostgreSQL / Drizzle · 239 automated tests against in-process PostgreSQL (PGlite) · GitHub Actions CI.
 
----
+### [OpsFlow](https://github.com/JassianAzi/opsflow) — workflow automation backend *(In Development)*
 
-### Other Projects
+Multi-tenant workflow platform focused on reliable execution: transactional outbox, immutable execution snapshots, fenced leases with `FOR UPDATE SKIP LOCKED`, idempotent processing, optimistic concurrency and crash recovery. The step engine itself is not built yet; executions currently end deliberately with `EXECUTION_ENGINE_NOT_IMPLEMENTED`.
 
-**Web-Based Financial Auditing Portal** — *Full-Stack Developer* · `PHP` `MySQL` `JavaScript`
-A platform for managing, validating, and auditing financial and liquidation reports, with relational database design for tracking income, expenses, and transactions, plus dynamic validation that cut down manual reporting errors.
+Fastify · React / Vite · PostgreSQL / Drizzle · Redis / BullMQ · integration tests against real PostgreSQL and Redis in GitHub Actions.
 
-**Lost and Found Management System** — *Front-End Developer* · `PHP` `MySQL` `JavaScript`
-A web app for reporting, searching, and claiming lost and found items, with image upload/preview and status filtering.
+### [Bayaw's Grill](https://bayawsgrill.com) — client restaurant website
 
----
+Production website for a local restaurant: responsive Astro site with SEO and structured data, deployed on Vercel with a custom domain.
 
-### Skills
+## Education and certifications
 
-**Languages**
-![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=openjdk&logoColor=white)
-![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-
-**Frameworks & Web**
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Angular](https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=white)
-![Ionic](https://img.shields.io/badge/-Ionic-3880FF?style=flat-square&logo=ionic&logoColor=white)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-
-**Database & Tools**
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Railway](https://img.shields.io/badge/-Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
-
-**Also working with:** RESTful APIs · OAuth & Authentication Systems · Payment/Billing Integration (Paddle) · UI/UX Design · SDLC · AI-Assisted Development (Claude Code, Anthropic API)
-
----
-
-### Certifications
-
-- Civil Service Eligibility — August 2024
-- Cisco: Operating Systems Support — October 2025
-- Cisco: Cyber Threat Management — November 2025
-- Certiport: IT Specialist in HTML and CSS — November 2025
-
----
-
-### Get in Touch
-
-Open to software development, IT support, and technology consulting opportunities.
-
-- Email: [carlbalaria@gmail.com](mailto:carlbalaria@gmail.com)
-- Website: [clerune.com](https://www.clerune.com)
+BS Information Technology, Magna Cum Laude — Nueva Ecija University of Science and Technology (2026) · Cisco: Operating Systems Support · Cisco: Cyber Threat Management · Certiport IT Specialist: HTML and CSS · Civil Service Eligibility
